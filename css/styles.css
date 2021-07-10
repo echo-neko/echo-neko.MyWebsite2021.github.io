@@ -1,0 +1,303 @@
+
+/* Fonts */
+h1, #wordmark{
+    font-family: 'Bad Script', cursive;
+}
+
+h2, h3, h4, h5, h6,
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.nav-link{
+    color: rgb(20, 71, 119);
+}
+
+
+
+/* all pages */
+.bg-light {
+    background-color: rgb(252, 220, 250)!important;
+}
+
+.bg-light-half{
+    background-color: rgb(252, 220, 250, 0.5)!important
+}
+
+.text-dark {
+    color: rgb(20, 71, 119);
+}
+
+.light-blue {
+    color: rgb(42, 135, 221);
+}
+
+a{
+    color: rgb(38, 132, 219);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+p{
+    color: #212529!important;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(20, 71, 119, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(20, 71, 119);
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+}
+
+.btn-primary,
+.modal-footer button{
+    background-color: rgb(75, 118, 158);
+    border-color: #fff;
+}
+.btn-primary:hover,
+.modal-footer button:hover{
+    background-color: rgb(59, 100, 138);
+}
+
+hr {
+    width: 80%;
+    margin: 1.5rem 10%;
+    color: rgb(252, 220, 250);
+    opacity: 1;
+}
+
+
+/* navbar*/
+.nav-link{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#wordmark{
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    color: rgb(20, 71, 119)!important;
+    margin-top: 5px;
+}
+
+#wordmark-link{
+    text-decoration: none;
+}
+
+
+
+/* footer */
+footer .d-flex{
+    position: relative;
+}
+
+footer #BunnyFooter{
+    position: absolute;
+    bottom: -5px;
+    left: 15%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+footer #FlowerFooter{
+    position: absolute;
+    bottom: -15px;
+    left: 80%;
+    object-fit: contain;
+    z-index: -1;
+}
+
+/* header */
+#hero{
+    background-image: url(../img/FlowerHeader.png);
+    background-size: contain;
+    background-position: 50% 30%;
+}
+
+#hero h1{
+    margin-bottom: 0;
+}
+
+h2{
+    margin: 2rem 0;
+}
+
+
+/* Home Page Cards */
+#HomeCard {
+    background-color: rgba(252, 220, 250, 0.5)!important;
+    border-radius: 1px!important;
+    border-style: solid;
+    border-color: rgba(252, 220, 250, 0.5);
+    height: 100%;
+}
+
+#HomeCard:hover{
+    background-color: rgba(252, 220, 250, 0.25)!important;
+    border-radius: 1px!important;
+    border-style: solid;
+    border-color: rgb(233, 186, 221)!important;
+}
+
+#HomeCard button{
+    width: 100%;
+}
+
+#homeArtCarousel .carousel-item img{
+    height: 300px;
+    object-fit: contain;
+    padding-bottom: 2.5rem;
+}
+
+.carousel-indicators{
+    top: 95%;
+}
+
+.carousel-indicators li{
+    width: 2rem;
+    height: 0.75rem;
+    margin: 0 0.25rem;
+    background-color: rgb(20, 71, 119, 0.25);
+}
+
+.carousel-indicators .active{
+    background-color: rgb(20, 71, 119);
+}
+
+#cardButton,
+#cardButton:hover{
+    text-decoration: none!important;
+}
+
+/* Artworks */
+#art .col img{
+    height: 300px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+#art #artworkCarousel,
+#art #artworkCarousel .carousel-inner,
+#art #artworkCarousel .carousel-item{
+    object-fit: contain;
+    height: 100%;
+}
+
+#art .carousel-item img{
+    height: 80%;
+    object-fit: contain;
+}
+
+#art .modal-body{
+    height: 90vh;
+    object-fit: contain;
+}
+
+#art .carousel-control-prev,
+#art .carousel-control-next{
+    height: 18%;
+    top: auto;
+    bottom: 0px;
+    width: 10%;
+    background-color: rgb(20, 71, 119)!important;
+}
+
+#art #artworkCarousel .captionDiv{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 18%;
+    bottom: 0px;
+    border-width: 1px;
+    border-style: none;
+    border-left: none;
+    border-right: none;
+    border-color: gray;
+    background-color: rgb(20, 71, 119, 0.25);
+}
+
+#art #artworkCarousel p{
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+
+
+/* Translations */
+#tlVid {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+}
+
+#tlVid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+}
+
+#tl button{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 0;
+    padding: 0 0;
+}
+
+#tl button:hover{
+    border-style: solid;
+    border-radius: 1px!important;
+    border-color: rgb(233, 186, 221)!important;
+    background-color: rgba(252, 220, 250, 0.25)!important;
+}
+
+
+#tl .col{
+    padding: 0.25rem;
+}
+
+a:not([href]):not([class]), 
+a:not([href]):not([class]):hover{
+    cursor: pointer;
+}
+
+
+#tl .card:hover{
+    border-style: solid;
+    border-radius: 1px!important;
+    border-color: rgb(233, 186, 221)!important;
+    background-color: rgba(252, 220, 250, 0.25)!important;
+}
+
+#tl i{
+    font-size: 28px;
+}
+
+
+/* process */
+#process h4{
+    margin-bottom: 1rem;
+}
+
+
+
+/*
+ * Extra utilities 
+ copied from https://getbootstrap.com/docs/5.0/examples/product/
+ */
+
+ .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

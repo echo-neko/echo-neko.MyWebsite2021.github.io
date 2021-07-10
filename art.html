@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/FlowerIcon.png" type="image/x-icon">
+    <title>Hana Dowe - Art</title>
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles and Overrides -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="art" class="d-flex flex-column h-100">
+    <!-- Bootstrap Nav Bar -->
+    <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+    <!-- with additional modifications from the labs -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      
+      <span class="navbar-decoration text-white d-none d-md-block">✿❁✿</span>
+      <a id="wordmark-link" aria-current="page" href="index.html">
+        <p id="wordmark">Hana Dowe</p>
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Profile</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active" href="art.html">Art</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="translations.html">Translations</a>
+              </li>
+          </ul>
+      </div>
+      <span class="navbar-decoration text-white d-none d-md-block">✿❁✿</span>
+      </div>
+    </nav>
+
+    <!-- Artwork Gallery (Carousel Modal Controls)-->
+    <!-- Bootstrap Rows/Cols-->
+    <div class="container mb-5">
+      <h2>Artwork</h2>
+      <p>Created by me using Photoshop and Illustrator. Accompanied by extremely creative names.</p>
+    </div>
+
+    <div class="container mb-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-bs-slide-to="0" src="img/Art/BlockPanda.png" alt="Block Panda">
+          <figcaption class="text-center">Block Panda</figcaption>
+        </div>
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-bs-slide-to="1" src="img/Art/BWCat.png" alt="Black and White Cat">
+          <figcaption class="text-center">Black and White Cat</figcaption>
+        </div>
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-bs-slide-to="2" src="img/Art/FlowerAndMoon.png" alt="Flower and Moon">
+          <figcaption class="text-center">Flower and Moon</figcaption>
+        </div>
+        <div class="col">
+            <img class="d-block w-100" href="#artworkCarousel" data-bs-slide-to="3" src="img/Art/Flowers.png" alt="Flowers">
+            <figcaption class="text-center">Flowers</figcaption>
+        </div>
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-bs-slide-to="4" src="img/Art/Room.png" alt="Room">
+          <figcaption class="text-center">Room</figcaption>
+        </div>
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-slide-to="5" src="img/Art/OwlBill.png" alt="Owl Bill">
+          <figcaption class="text-center">Owl Bill</figcaption>
+        </div>
+        <div class="col">
+          <img class="d-block w-100" href="#artworkCarousel" data-slide-to="6" src="img/Art/BlockBird.png" alt="Block Bird">
+          <figcaption class="text-center">Block Bird</figcaption>
+        </div>
+
+      </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Artworks</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- Carousel -->
+        <div id="artworkCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+      
+          <!-- All images created by me -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/Art/BlockPanda.png" alt="Block Panda slide">
+              <div class="captionDiv">
+                <p>Block Panda</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art/BWCat.png" alt="Black and White Cat slide">
+              <div class="captionDiv">
+                <p>Black and White Cat</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art/FlowerAndMoon.png" alt="Flower and Moon slide">
+              <div class="captionDiv">
+                <p>Flower and Moon</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art/Flowers.png" alt="Flowers slide">
+              <div class="captionDiv">
+                <p>Flowers</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art/Room.png" alt="Room slide">
+              <div class="captionDiv">
+                <p>Room</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art/OwlBill.png" alt="Owl Bill slide">
+              <div class="captionDiv">
+                <p>Owl Bill</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/Art//BlockBird.png" alt="Block Bird slide">
+              <div class="captionDiv">
+                <p>Block Bird</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- previous/next buttons -->
+          <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#artworkCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next bg-dark" type="button" data-bs-target="#artworkCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <!--  Sticky Footer https://getbootstrap.com/docs/5.0/examples/sticky-footer/ -->
+    <!-- Also Note the classes on the html and body tags -->
+    <footer class="footer mt-auto">
+      <div class="d-flex felx-row mt-5">
+          <div class="w-50"><img id="BunnyFooter" width="5%"  src="img/BunnyFooter.png"></div>
+          <div class="w-50"><img id="FlowerFooter" width="15%" src="img/FlowerFooter.png"></div>
+      </div>
+      <div class="text-center py-3 bg-light">
+          <span>Created by Hana Dowe with <a href="https://getbootstrap.com">Bootstrap</a></span>
+      </div>
+  </footer>
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- Bootstrap Javascript Bundle -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  </body>
+</html>
